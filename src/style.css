@@ -1,0 +1,94 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+nav a {
+    text-decoration: none;
+    position: relative;
+    display:table;
+    width: 300px;
+    padding: 10px;
+    padding-left: 20px;
+    color: black;
+
+}
+nav li{
+    list-style: none;
+
+}
+nav ul{
+    padding: 0;
+    margin: 0;    
+    
+}
+
+nav{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: rgb(236, 236, 236);
+    width: 70px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+
+  
+}
+.logo{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    position: relative;
+    left: -9px;
+    width:40px;
+    margin: 0;
+    padding: 0;
+
+}
+.logo span{
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    top: 5px;
+    margin-left: 10px;
+}
+
+.fas {
+    position: relative;
+    width: 21px;
+    top: 0px;
+    font-size:20px;
+    text-align: center;
+    
+}
+
+.nav-item{
+    position: relative;
+    top: 0px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.navbar-item-hover:hover{
+    background-color: rgba(219, 219, 219, 0.9);
+}
+nav:hover{
+    width: 230px;
+    transition: all 0.5s ease;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+}
+.logout:hover{ background-color: rgba(219, 219, 219, 0.9);}
+
+
