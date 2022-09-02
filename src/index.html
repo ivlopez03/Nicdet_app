@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="assets/icons/Facebook Post 940x788 px.png">
     <title>N i c d e t</title>
 </head>
 <body>
@@ -16,45 +17,59 @@
             <ul>
                 <li>
                     <a href="#" class="logo">
-                        <img src="assets/Facebook Post 940x788 px.png" alt="">
+                        <img src="assets/icons/Facebook Post 940x788 px.png" alt="">
                         <span >Nicdet Software</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="navbar-item-hover">
-                        <img class="fas fa-maintain" src="assets/briefcase-free-icon-font.png">
+                        <img class="fas fa-maintain" src="assets/icons/briefcase-free-icon-font.png">
                         <span class="nav-item">Mantenimiento</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="navbar-item-hover">
-                        <img class="fas fa-inventory" src="assets/database-free-icon-font.png">
+                        <img class="fas fa-inventory" src="assets/icons/database-free-icon-font.png">
                         <span class="nav-item">Inventario</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="navbar-item-hover">
-                        <img class="fas fa-equip" src="assets/bolt-free-icon-font.png">
+                        <img class="fas fa-equip" src="assets/icons/bolt-free-icon-font.png">
                         <span class="nav-item">Equipos</span>
                     </a>
                 </li>
+            
                 <li>
                     <a href="#" class="navbar-item-hover">
-                        <img class="fas fa-settings" src="assets/settings-free-icon-font.png">
-                        <span class="nav-item">Configuracion</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="navbar-item-hover">
-                        <img class="fas fa-bitacora" src="assets/search-alt-free-icon-font.png">
+                        <img class="fas fa-bitacora" src="assets/icons/search-alt-free-icon-font.png">
                         <span class="nav-item">Bitacoras</span>
                     </a>
                 </li>
+                <li>
+                    <a href="#" class="navbar-item-hover">
+                        <img class="fas fa-reg" src="assets/icons/clipboard-list-free-icon-font.png">
+                        <span class="nav-item">Registros</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-item-hover">
+                        <img class="fas fa-help" src="assets/icons/interrogation-free-icon-font.png">
+                        <span class="nav-item">Ayuda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-item-hover">
+                        <img class="fas fa-settings" src="assets/icons/settings-free-icon-font.png">
+                        <span class="nav-item">Configuracion</span>
+                    </a>
+                </li>
+                
                 
 
                 <li>
                     <a href="#" class="logout">
-                        <img class="fas fa-logout" src="assets/sign-out-alt-free-icon-font.png">
+                        <img class="fas fa-logout" src="assets/icons/sign-out-alt-free-icon-font.png">
                         <span class="nav-item">Logout</span>
                     </a>
                 </li>
@@ -74,9 +89,142 @@
         <div class="user-login">Ivan Lopez </div>
         <div class="dashboard-container">
             <div class="drop-btn">
-                <span>Laboratorio Nanotecnologia</span> <img src="assets/angle-small-down-free-icon-font.png" alt="">
+                <span>Laboratorio Nanotecnologia</span> <img src="assets/icons/angle-small-down-free-icon-font.png" alt="">
             </div>
             
+
+            <div class="table-container">
+                <table id="table">
+                   <tr >
+                    <th></th>
+                    <th >Equipo</th>
+                    <th >Area</th>
+                    <th>Tipo de Mantenimiento</th>
+                    <th>Periodo de Mantenimiento</th>
+                    <th>Ultimo Mantenimin</th>
+                    <th>Primer Mantenimiento</th>
+                    <th>Estado del Equipo</th>
+                    <th>Mantenimiento Correctivo</th>
+                    <th></th>
+                   </tr>
+                   <tr>
+                    <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                    <td width="140px">equipo 1</td>
+                    <td width="120px">Cuarto limpio</td>
+                    <td>Preventivo</td>
+                    <td> 4 meses </td>
+                    <td>03/11/2022</td>
+                    <td>05/12/2022</td>
+                    <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
+                    <td> none </td>
+                    <td> <button class="delete"> Delete</button></td>
+                   </tr>
+                   <tr>
+                    <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                    <td>equipo 2</td>
+                    <td>Nano</td>
+                    <td>Preventivo</td>
+                    <td> 5 meses </td>
+                    <td>04/01/2022</td>
+                    <td>05/02/2022</td>
+                    <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
+                    <td> 05/01/2022 </td>
+                    <td> <button class="delete"> Delete</button></td>
+                   </tr>
+                   <tr>
+                    <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                    <td>equipo 3</td>
+                    <td>Cuarto limpio</td>
+                    <td>Preventivo</td>
+                    <td> 2 meses </td>
+                    <td>13/12/2022</td>
+                    <td>05/04/2023</td>
+                    <td>Malo<img src="assets/icons/red.png" alt=""> </td>
+                    <td> 05/01/2022 </td>
+                    <td> <button class="delete"> Delete</button></td>
+                   </tr>
+                   <tr>
+                    <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                    <td>equipo 4</td>
+                    <td>Cuarto limpio</td>
+                    <td>Preventivo</td>
+                    <td> 6 meses</td>
+                    <td>13/03/2022</td>
+                    <td>05/04/2022</td>
+                    <td>Medio<img src="assets/icons/yellow.png" alt=""> </td>
+                    <td> none </td>
+                    <td id="del"> <button class="delete"> Delete</button></td>
+                   </tr>
+
+                </table>
+                <script>
+                    let table = document.getElementById("table");
+                    let cells = table.getElementsByTagName('td');
+                    let row = document.getElementById("row");
+
+                    for (let i = 0; i < cells.length ; i++) {
+                        cellrestrinction = i % 10;
+                        console.log(cellrestrinction);
+                        if (cellrestrinction != 9  & cellrestrinction != 0) {
+                            cells[i].onclick = function () {
+                            if ( this.hasAttribute("data-clicked")) {
+                                return;
+                            }
+                            this.setAttribute("data-clicked","yes");
+                            this.setAttribute("data-text", this.innerHTML);
+
+
+
+                            let input = document.createElement("input");
+                            input.setAttribute("type", "text");
+                            input.value = this.innerHTML;
+                           
+                            input.style.border = "1px solid";
+                            input.style.fontFamily = "Montserrat";
+                           
+            
+                            input.onblur = function () {
+                                let td = input.parentElement;
+                                let originaltext = input.parentElement.getAttribute("data-text");
+                                let currenttext = this.value;
+
+                                if (originaltext != currenttext) {
+                                    td.removeAttribute("data-clicked");
+                                    td.removeAttribute("data-text");
+                                    td.innerHTML = currenttext;
+                                    td.style.cssText = "padding: 2px";
+                                    console.log(originaltext + "is changed to" + currenttext);   
+                                } else {
+                                    td.removeAttribute("data-clicked");
+                                    td.removeAttribute("data-text");
+                                    td.innerHTML = originaltext;
+                                    td.style.cssText = "padding: 2px";
+                                    console.log("no changes made")
+
+                                }
+                            }
+
+                            input.onkeypress = function() {
+                                if(event.keyCode == 13){
+                                    this.blur();
+                                }
+
+                            }
+                            this.innerHTML = '';
+                            this.style.cssText = 'padding: 0px 0px;'
+                            this.append(input);
+                            this.firstElementChild.select();
+                        }
+                            
+
+                        } 
+                        
+                    }
+                    
+                </script>
+
+            </div>
+    
         </div>
         
     </div>
