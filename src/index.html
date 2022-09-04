@@ -91,70 +91,253 @@
             <div class="drop-btn">
                 <span>Laboratorio Nanotecnologia</span> <img src="assets/icons/angle-small-down-free-icon-font.png" alt="">
             </div>
-            
+            <div class="menubar">
+                <ul>
+                    <li>
+                        <button ><img class="img-btn" src="assets/icons/plus-free-icon-font.png" alt=""></button>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="checkbox" id="edit-checkbox" value="editable"><img class="style-btn"  src="assets/icons/edit-free-icon-font (1).png" alt="">
+                    </li>
+                    <li>
+                        <button><img class="img-btn"  src="assets/icons/add-document-free-icon-font.png" alt=""></button>
+                    </li>
+                    <li>
+                        <button><img class="img-btn"  src="assets/icons/search-free-icon-font.png" alt=""></button>
+                    </li>
+                    <li>
+                        <a href="#"><img class="style-btn "  src="assets/icons/archive-free-icon-font.png" alt=""></a>
+                    </li>
+                    <li>
+                        <button><img class="img-btn"  src="assets/icons/cloud-upload-free-icon-font.png" alt=""></button>
+                    </li>
+                    <li>
+                        <button><img class="img-btn"  src="assets/icons/print-free-icon-font.png" alt=""></button>
+                    </li>
+                </ul>
 
+
+            </div>
+
+        
             <div class="table-container">
                 <table id="table">
-                   <tr >
-                    <th></th>
-                    <th >Equipo</th>
-                    <th >Area</th>
-                    <th>Tipo de Mantenimiento</th>
-                    <th>Periodo de Mantenimiento</th>
-                    <th>Ultimo Mantenimin</th>
-                    <th>Primer Mantenimiento</th>
-                    <th>Estado del Equipo</th>
-                    <th>Mantenimiento Correctivo</th>
-                    <th></th>
-                   </tr>
-                   <tr>
-                    <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
-                    <td width="140px">equipo 1</td>
-                    <td width="120px">Cuarto limpio</td>
-                    <td>Preventivo</td>
-                    <td> 4 meses </td>
-                    <td>03/11/2022</td>
-                    <td>05/12/2022</td>
-                    <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
-                    <td> none </td>
-                    <td> <button class="delete"> Delete</button></td>
-                   </tr>
-                   <tr>
-                    <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
-                    <td>equipo 2</td>
-                    <td>Nano</td>
-                    <td>Preventivo</td>
-                    <td> 5 meses </td>
-                    <td>04/01/2022</td>
-                    <td>05/02/2022</td>
-                    <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
-                    <td> 05/01/2022 </td>
-                    <td> <button class="delete"> Delete</button></td>
-                   </tr>
-                   <tr>
-                    <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
-                    <td>equipo 3</td>
-                    <td>Cuarto limpio</td>
-                    <td>Preventivo</td>
-                    <td> 2 meses </td>
-                    <td>13/12/2022</td>
-                    <td>05/04/2023</td>
-                    <td>Malo<img src="assets/icons/red.png" alt=""> </td>
-                    <td> 05/01/2022 </td>
-                    <td> <button class="delete"> Delete</button></td>
-                   </tr>
-                   <tr>
-                    <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
-                    <td>equipo 4</td>
-                    <td>Cuarto limpio</td>
-                    <td>Preventivo</td>
-                    <td> 6 meses</td>
-                    <td>13/03/2022</td>
-                    <td>05/04/2022</td>
-                    <td>Medio<img src="assets/icons/yellow.png" alt=""> </td>
-                    <td> none </td>
-                    <td id="del"> <button class="delete"> Delete</button></td>
-                   </tr>
+                    <thead>
+                        <tr >
+                            <th></th>
+                            <th >Equipo</th>
+                            <th >Area</th>
+                            <th>Tipo de Mantenimiento</th>
+                            <th>Periodo de Mantenimiento</th>
+                            <th>Ultimo Mantenimiento</th>
+                            <th>Primer Mantenimiento</th>
+                            <th>Estado del Equipo</th>
+                            <th>Mantenimiento Correctivo</th>
+                            <th></th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td width="140px">equipo 1</td>
+                            <td width="120px">Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 4 meses </td>
+                            <td>03/11/2022</td>
+                            <td>05/12/2022</td>
+                            <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
+                            <td> none </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 2</td>
+                            <td>Nano</td>
+                            <td>Preventivo</td>
+                            <td> 5 meses </td>
+                            <td>04/01/2022</td>
+                            <td>05/02/2022</td>
+                            <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
+                            <td> 05/01/2022 </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 3</td>
+                            <td>Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 2 meses </td>
+                            <td>13/12/2022</td>
+                            <td>05/04/2023</td>
+                            <td>Malo<img src="assets/icons/red.png" alt=""> </td>
+                            <td> 05/01/2022 </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 4</td>
+                            <td>Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 6 meses</td>
+                            <td>13/03/2022</td>
+                            <td>05/04/2022</td>
+                            <td>Medio<img src="assets/icons/yellow.png" alt=""> </td>
+                            <td> none </td>
+                            <td id="del"> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td width="140px">equipo 1</td>
+                            <td width="120px">Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 4 meses </td>
+                            <td>03/11/2022</td>
+                            <td>05/12/2022</td>
+                            <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
+                            <td> none </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 2</td>
+                            <td>Nano</td>
+                            <td>Preventivo</td>
+                            <td> 5 meses </td>
+                            <td>04/01/2022</td>
+                            <td>05/02/2022</td>
+                            <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
+                            <td> 05/01/2022 </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 3</td>
+                            <td>Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 2 meses </td>
+                            <td>13/12/2022</td>
+                            <td>05/04/2023</td>
+                            <td>Malo<img src="assets/icons/red.png" alt=""> </td>
+                            <td> 05/01/2022 </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 4</td>
+                            <td>Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 6 meses</td>
+                            <td>13/03/2022</td>
+                            <td>05/04/2022</td>
+                            <td>Medio<img src="assets/icons/yellow.png" alt=""> </td>
+                            <td> none </td>
+                            <td id="del"> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td width="140px">equipo 1</td>
+                            <td width="120px">Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 4 meses </td>
+                            <td>03/11/2022</td>
+                            <td>05/12/2022</td>
+                            <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
+                            <td> none </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 2</td>
+                            <td>Nano</td>
+                            <td>Preventivo</td>
+                            <td> 5 meses </td>
+                            <td>04/01/2022</td>
+                            <td>05/02/2022</td>
+                            <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
+                            <td> 05/01/2022 </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 3</td>
+                            <td>Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 2 meses </td>
+                            <td>13/12/2022</td>
+                            <td>05/04/2023</td>
+                            <td>Malo<img src="assets/icons/red.png" alt=""> </td>
+                            <td> 05/01/2022 </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 4</td>
+                            <td>Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 6 meses</td>
+                            <td>13/03/2022</td>
+                            <td>05/04/2022</td>
+                            <td>Medio<img src="assets/icons/yellow.png" alt=""> </td>
+                            <td> none </td>
+                            <td id="del"> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td width="140px">equipo 1</td>
+                            <td width="120px">Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 4 meses </td>
+                            <td>03/11/2022</td>
+                            <td>05/12/2022</td>
+                            <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
+                            <td> none </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 2</td>
+                            <td>Nano</td>
+                            <td>Preventivo</td>
+                            <td> 5 meses </td>
+                            <td>04/01/2022</td>
+                            <td>05/02/2022</td>
+                            <td>Bueno <img src="assets/icons/circle-small-free-icon-font.png" alt=""> </td>
+                            <td> 05/01/2022 </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 3</td>
+                            <td>Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 2 meses </td>
+                            <td>13/12/2022</td>
+                            <td>05/04/2023</td>
+                            <td>Malo<img src="assets/icons/red.png" alt=""> </td>
+                            <td> 05/01/2022 </td>
+                            <td> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                            <td width="30px"><img src="assets/icons/menu-dots-free-icon-font.png" alt="" class="menu-dots-icon"></td>
+                            <td>equipo 4</td>
+                            <td>Cuarto limpio</td>
+                            <td>Preventivo</td>
+                            <td> 6 meses</td>
+                            <td>13/03/2022</td>
+                            <td>05/04/2022</td>
+                            <td>Medio<img src="assets/icons/yellow.png" alt=""> </td>
+                            <td> none </td>
+                            <td id="del"> <button class="delete"> Delete</button></td>
+                           </tr>
+                           <tr>
+                        
+                         
+                        
+
+                    </tbody>
+
+                  
 
                 </table>
                 <script>
