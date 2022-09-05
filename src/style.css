@@ -97,8 +97,9 @@ nav:hover{
 
 .user-login {
     position:absolute;
-    top: 0;
-    right: 0;
+    top: 6px;
+    right: 6px;
+    border-radius: 3px;
     background-color: #333;
     color: #fff;
     padding: 8px;
@@ -113,27 +114,25 @@ nav:hover{
 }
 
 .drop-btn{
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 255px;
-    padding: 2px 1px;
-    border-radius: 3px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(24, 29, 66);
-}
-.drop-btn span{
     position: relative;
-    top:-4px;
-    margin-left: 3px;
-    font-size: 14px;
+    top: -2px;
+    padding: 2px;
+    background-color: #fff;
+    margin-left: 0px;
+    font-size: 13px;
+    padding:3px 4px;
+    border-color: #fff;
+    border-style:groove;
+    border-width: 1px;
+    border-radius: 3px;
+    cursor: pointer;
 }
 .drop-btn img{
     position: relative;
-    top: 4px;
-    margin-left: 5px;
+    top: 6px;
+    margin-left: 4px;
     padding: 0;
-    width: 25px;
+    width: 20px;
 }
 
 td img {
@@ -156,7 +155,7 @@ td .menu-dots-icon:hover { width: 16px;}
     border: 4px solid rgb(236, 236, 236);
     height: 80%;
     width: 90%;
-    top: 90px;
+    top: 91px;
     margin-left:10px;
     
     overflow: auto;
@@ -167,6 +166,8 @@ td .menu-dots-icon:hover { width: 16px;}
 }
 
 table {
+    width: 100%;
+    height: 100%;
     position: relative;
     font-size: 13px;
     background-color: white;
@@ -221,6 +222,7 @@ td .delete:hover { background-color: rgba(255, 99, 71, 0.427); }
     margin-left:10px;
     border-radius: 3px;
     padding: 2px;
+    border: 2px solid rgb(236, 236, 236);
     
 
     
@@ -239,6 +241,8 @@ td .delete:hover { background-color: rgba(255, 99, 71, 0.427); }
     position: relative;
     top: 2px;
     background-color: #fff;
+    border-color: #fff;
+    border-style:groove;
     border-width: 1px;
     border-radius: 3px;
     cursor: pointer;
@@ -258,9 +262,27 @@ td .delete:hover { background-color: rgba(255, 99, 71, 0.427); }
     top: 1.8px;
     width: 13px;
     background-color: #fff;
+    border-color: #fff;
     padding:3.3px 6px;
-    border: 1px solid;
+    border-style: groove;
+    border-width: 1px;
     border-radius: 3px;
     cursor: pointer;
 }
 
+.add-btn-container {
+    position: relative; 
+    top: 86%; 
+    left: 5px;
+    margin: 4px;
+}
+.add-btn-container button {
+    font-family: "Montserrat";
+    padding: 5px;
+    background-color: rgb(236, 236, 236);
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.add-btn-container button:hover { background-color: rgba(219, 219, 219, 0.9); }
